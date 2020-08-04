@@ -1,0 +1,16 @@
+{
+  "name": "BigQuery to CSV",
+  "description": "Converts BigQuery table to CSV file in Cloud Storage",
+  "parameters": [
+    {
+      "name": "input_table_name",
+      "label": "BigQuery input table",
+      "helpText": "Name of input BigQuery table, in the form PROJECT_ID.DATASET.TABLE"
+    },
+    {
+      "name": "output_file_path",
+      "label": "CSV output file path",
+      "helpText": "Cloud Storage path to the output CSV file"
+    }
+  ]
+}
